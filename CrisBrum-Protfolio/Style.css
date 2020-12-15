@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url(Img/fundo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-attachment: scroll;
+  
+    
+  }
+  .menu  a{
+    text-decoration: none;
+    color: DarkGray;
+  }
+  .menup  a{
+    text-decoration: none;
+    color: DarkGray;
+    
+  }
+  
+header.menu-principal{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  
+  }
+  .menu{
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .menu li{
+    margin: inherit;
+    list-style: none;
+  
+  }
+  .menu li a{
+    display: block;
+    padding: 20px;
+    font-family:Arial;
+    font-size:23px;     
+    text-shadow:1px 1px 0px rgba(0,0,0.5);
+  
+  }
+  header.menu-projetos{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background: black;
+    text-align: center;
+
+  }
+
+  .menup p a{
+    display: block;
+    padding: 20px;
+    font-family:Arial;
+    font-size:22px;
+    text-shadow:1px 1px 0px rgba(0,0,0.5);
+  
+  }
+  a:hover{
+    color: white;
+    }
+    .centralizado{
+      background: rgb(0, 0, 0) transparent;
+      background: rgba(0, 0, 0, 0.7);
+      position: relative;
+      width: 80%;
+      padding: 90px;
+      margin: 0 auto;
+      top:200px;
+    
+    }
+    .centralizadop{
+      background: rgb(0, 0, 0) transparent;
+      background: rgba(0, 0, 0, 0.7);
+      position: relative;
+      width: 80%;
+      padding: 90px;
+      margin: 0 auto;
+      top: 300px;
+  
+    }
+    .sobre{
+      top: 180px;
+    }
+    .projetos{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;/*quantas colunas eu quero*/
+     grid-gap: 20px;
+     max-width: 800px;
+     align-items: center;
+     padding: 10px;
+     margin: 0 auto;
+      
+    }
+    footer{
+      top: 560px;
+      clear:left;
+      height: 150px;
+      padding: 8px;
+      background-color: DarkGray;
+      position: relative;
+    
+}
+.sobre p{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+.img{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: DarkGray;
+}
+.projetos{
+  top: 300px;
+}
+fieldset {
+  border: 2px white solid;
+  border-radius: 10px;
+  width: 920x;
+  position: relative;
+}
+.contato{
+  top: 420px ;
+  padding: 30px;
+  border:1px solid #ccc;
+  height: 590px;
+}
+
+.contato p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 10px 0;
+}
+.field label{
+    padding-left: 10px;
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    color: white;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 400px;
+    padding-left: 10px;
+    height: 35px; /*nome*/
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 20px;
+}
+textarea{
+    line-height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+}
+.calculadora{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  
+}
+.calculadora input{
+    margin: 2px;
+    border: none;
+}
+.calculadora input[type=text]{
+    height: 35px;
+    width: 425px;
+    border-radius: 0;
+}
+.calculadora input[type=button]{
+    width: 100px;
+    height: 50px;
+}
+div#calculadora div{
+    display: flex;
+}
+.principal{
+  top: 300px;
+    clear:left;
+    height: 150px;
+    padding: 20px;
+    align-items: center;
+    background-color: gray ;
+    position: relative;
+}
+
+.app{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;/*quantas colunas eu quero*/
+   grid-gap: 20px;
+  max-width: 800px;
+  align-items: center;
+  padding: 10px;
+  margin:0 auto;
+}
+p{
+  font-size:23px;
+  color:white;
+  font-style: "Times new roman";
+}
+@media (max-width: 600px){
+  .projetos{
+    grid-template-columns: 1fr ;
+  }
+ 
+  legend{
+    width: 200px;
+  }
+  input[type=text],
+  input[type=email],
+  textarea{
+    width: 200px;
+  }
+  .app{
+    grid-template-columns: 1fr ;
+  }

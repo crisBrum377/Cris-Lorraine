@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url(Img/fundo4.jpg);
+    background-repeat: inherit;
+    background-size: contain;
+    background-attachment: scroll; 
+    
+  }
+
+  .menu  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menup  a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  p{
+    text-align:center;
+  }
+  
+header.menu-principal{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background: #4682B4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  
+  }
+  .menu{
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .menu li{
+    margin: inherit;
+    list-style: none;
+  
+  }
+  .menu li a{
+    display: block;
+    padding: 20px;
+    font-family:Arial;
+    font-size:22px;
+    text-shadow:1px 1px 0px rgba(0,0,0.5);
+   
+  }
+  header.menu-projetos{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background: #4682B4;
+    text-align: center;
+
+  }
+
+  .menup p a{
+    display: block;
+    padding: 20px;
+    font-family:Arial;
+    font-size:22px;
+    text-shadow:1px 1px 0px rgba(0,0,0.5);
+  
+  }
+  .menup p {
+    text-align:center;
+  }
+  
+ 
+  a:hover{
+    color: black;
+    }
+  p{
+    color: white;
+    font-size: 20px;
+    text-align:justify;
+  }
+
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: darkgrey;
+  }
+  .sobre p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .anny{
+    text-align: center;
+  }
+  .centralizado{
+    background: rgb(0, 0, 0) transparent;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    width: 80%;
+    padding: 90px;
+    margin: 0 auto;
+    top:200px;
+  
+  }
+  .centralizadop{
+    background: rgb(0, 0, 0) transparent;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    width: 80%;
+    padding: 90px;
+    margin: 0 auto;
+    top: 300px;
+
+  }
+  .sobre{
+    top: 180px;
+  }
+  
+   
+  .projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;/*quantas colunas eu quero*/
+  grid-gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  
+  }
+ 
+
+  
+  .contato{
+    top: 420px ;
+    padding: 30px;
+    border:1px solid #ccc;
+    height: 590px;
+  }
+  
+  .contato p{
+      width: 100%;
+      font-size: 1.5em;
+  }
+ fieldset {
+  border: 2px white solid;
+  border-radius: 10px;
+  width: 920x;
+  position: relative;
+}
+  .field{
+      width: 100%;
+      margin: 10px 0;
+  }
+  .field label{
+    padding-left: 10px;
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    color: white;
+}
+  input[type=text],
+  input[type=email],
+  textarea{
+      width: 400px;
+      padding-left: 10px;
+      height: 35px; /*nome*/
+      line-height: 30px;
+      border-radius: 15px;
+      border: 1px solid #ccc;
+      outline: none;
+      font-size 20 px;
+  }
+  textarea{
+      line-height: 20px;
+      font-size: 1.1em;
+      padding: 10px;
+      height: 90px;
+      resize: none;
+  }
+  input[type=submit]{
+      background-color: #ccc;
+      height: 35px;
+      border: none;
+      outline: 0;
+      cursor: pointer;
+      width: 100px;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 15px;
+  }
+ 
+  footer{
+    top: 560px;
+    clear:left;
+    height: 150px;
+    padding: 20px;
+    align-items: center;
+    background-color:#4682B4 ;
+    position: relative;
+  }
+.calculadora{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  
+}
+.calculadora input{
+    margin: 2px;
+    border: none;
+}
+.calculadora input[type=text]{
+    height: 35px;
+    width: 425px;
+    border-radius: 0;
+}
+.calculadora input[type=button]{
+    width: 100px;
+    height: 50px;
+}
+div#calculadora div{
+    display: flex;
+}
+.principal{
+  top: 300px;
+    clear:left;
+    height: 150px;
+    padding: 20px;
+    align-items: center;
+    background-color:#4682B4 ;
+    position: relative;
+}
+
+.flowers{
+  display: grid;
+  grid-template-columns: 1fr 1fr;/*quantas colunas eu quero*/
+  grid-gap: 20px;
+  max-width: 800px;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+.app{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;/*quantas colunas eu quero*/
+   grid-gap: 20px;
+  max-width: 800px;
+  align-items: center;
+  padding: 10px;
+  margin:0 auto;
+}
+ @media (max-width: 600px){
+    .projetos{
+      grid-template-columns: 1fr ;
+    }
+   
+    legend{
+      width: 200px;
+    }
+    input[type=text],
+    input[type=email],
+    textarea{
+      width: 200px;
+    }
+    .app{
+      grid-template-columns: 1fr ;
+    }
+    .flowers{
+      grid-template-columns: 1fr ;
+    }
+    
+  }
